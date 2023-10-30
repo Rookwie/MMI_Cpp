@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/abado/CLionProjects/MMI_Cpp/cmake-build-debug",
-		"source" : "C:/Users/abado/CLionProjects/MMI_Cpp"
+		"build" : "C:/Uni/MMI- GUI/MMI_Cpp/cmake-build-debug",
+		"source" : "C:/Uni/MMI- GUI/MMI_Cpp"
 	},
 	"version" : 
 	{
