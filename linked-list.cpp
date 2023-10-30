@@ -22,6 +22,7 @@
     void printList(Node* root) {
         int count = getCount(root);
         std::cout << "Number of elements: " << count << std::endl;
+
         Node* current = root;
         while (current != nullptr) {
             std::cout << current->content << std::endl;
@@ -34,6 +35,7 @@
         Node* newNode = new Node;
         std::strcpy(newNode->content, name);
         newNode->next = nullptr;        // Letzte Element in der Node
+
         if (root == nullptr) {
                 root = newNode;         // Sonderfall, wenn die Liste leer ist.
         } else {
